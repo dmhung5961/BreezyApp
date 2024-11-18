@@ -2,6 +2,7 @@ import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import { useSearchParams } from "react-router-dom";
+
 import { PAGE_SIZE } from "../utils/pagination";
 
 const StyledPagination = styled.div`

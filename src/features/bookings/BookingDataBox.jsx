@@ -6,12 +6,12 @@ import {
   HiOutlineCurrencyDollar,
   HiOutlineHomeModern,
 } from "react-icons/hi2";
-
 import { format, isToday } from "date-fns";
-import { Flag } from "../../ui/Flag";
-import { formatDistanceFromNow, formatCurrency } from "../../utils/helpers";
 
 import DataItem from "../../ui/DataItem";
+
+import { Flag } from "../../ui/Flag";
+import { formatDistanceFromNow, formatCurrency } from "../../utils/helpers";
 
 const StyledBookingDataBox = styled.section`
   background-color: var(--color-grey-0);

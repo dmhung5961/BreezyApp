@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
+import { useSearchParams } from "react-router-dom";
 
 import Select from "../ui/Select";
-import { useSearchParams } from "react-router-dom";
 
 function SortBy({ options }) {
   const [searchParams, setSearchParams] = useSearchParams();

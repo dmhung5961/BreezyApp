@@ -6,19 +6,19 @@ import {
   HiArrowUpOnSquare,
   HiTrash,
 } from "react-icons/hi2";
-
 import { useNavigate } from "react-router-dom";
 import { format, isToday } from "date-fns";
-import { formatCurrency } from "../../utils/helpers";
-import { formatDistanceFromNow } from "../../utils/helpers";
-import { useCheckOut } from "./useCheckOut";
-import { useDeleteBooking } from "./useDeleteBooking";
 
 import Tag from "../../ui/Tag";
 import Table from "../../ui/Table";
 import Menus from "../../ui/Menus";
 import Modal from "../../ui/Modal";
 import ConfirmDelete from "../../ui/ConfirmDelete";
+
+import { formatCurrency } from "../../utils/helpers";
+import { formatDistanceFromNow } from "../../utils/helpers";
+import { useCheckOut } from "./useCheckOut";
+import { useDeleteBooking } from "./useDeleteBooking";
 
 const Cabin = styled.div`
   font-size: 1.6rem;

@@ -2,9 +2,10 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 
 import Tag from "../../ui/Tag";
-import { Flag } from "../../ui/Flag";
 import CheckoutButton from "./CheckoutButton";
 import CheckinButton from "./CheckinButton";
+
+import { Flag } from "../../ui/Flag";
 
 const StyledTodayItem = styled.li`
   display: grid;
