@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import { useSearchParams } from "react-router-dom";
-
 import styled, { css } from "styled-components";
 
 const StyledFilter = styled.div`

@@ -1,11 +1,13 @@
 import PropTypes from "prop-types";
-import Stat from "./Stat";
 import {
   HiOutlineBanknotes,
   HiOutlineBriefcase,
   HiOutlineCalendarDays,
   HiOutlineChartBar,
 } from "react-icons/hi2";
+
+import Stat from "./Stat";
+
 import { formatCurrency } from "../../utils/helpers";
 
 function Stats({ bookings, confirmedStays, numDays, cabinCount }) {
