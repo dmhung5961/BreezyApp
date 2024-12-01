@@ -1,5 +1,5 @@
-import DashboardFilter from "../features/dashboard/DashboardFilter";
-import DashboardLayout from "../features/dashboard/DashboardLayout";
+import DashboardFilter from "../components/dashboard/DashboardFilter";
+import DashboardLayout from "../components/dashboard/DashboardLayout";
 import Heading from "../ui/Heading";
 import Row from "../ui/Row";
 
