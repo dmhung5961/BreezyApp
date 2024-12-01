@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 import Spinner from "./Spinner";
 
-import { useUser } from "../features/authentication/useUser";
+import { useUser } from "../components/authentication/useUser";
 
 const FullPage = styled.div`
   display: flex;

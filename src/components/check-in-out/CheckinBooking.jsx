@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { useEffect, useState } from "react";
 
-import BookingDataBox from "../../features/bookings/BookingDataBox";
+import BookingDataBox from "../../components/bookings/BookingDataBox";
 import Row from "../../ui/Row";
 import Heading from "../../ui/Heading";
 import ButtonGroup from "../../ui/ButtonGroup";
